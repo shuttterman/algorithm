@@ -1,3 +1,5 @@
+#ifndef CNODE_H
+#define CNODE_H
 template <typename T>
 class cBinarySearchTree;
 
@@ -12,3 +14,4 @@ friend class cBinarySearchTree<T>;
         cNode(){}
         cNode(T t) {key = t; left = right = 0;}
 };
+#endif

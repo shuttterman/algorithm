@@ -1,3 +1,5 @@
+#ifndef CBINARYSEARCHTREE_H
+#define CBINARYSEARCHTREE_H
 #include "cNode.h"
 #include <iostream>
 using namespace std;
@@ -78,3 +80,4 @@ class cBinarySearchTree{
             treePrint(root, 0);
         }
 };
+#endif
